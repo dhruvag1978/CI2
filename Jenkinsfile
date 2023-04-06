@@ -7,7 +7,7 @@ pipeline {
         stage('GIT CHECKOUT') {
 
             steps {
-                git branch: 'main', url: 'https://github.com/DepressedSaint/XebiaSession-5-6-04-2023.git'
+                git branch: 'main', url: 'https://github.com/dhruvag1978/CI2.git'
             }
         }
         stage('UNIT TESTING') {
